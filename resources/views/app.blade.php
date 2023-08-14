@@ -448,6 +448,8 @@
 
     <!-- Custom js -->
     <script src="{{ asset('js/custom.js') }}"></script>
+
+    <script src="{{ asset('plugins/bootstrap-filestyle/bootstrap-filestyle.js') }}"></script>
 </body>
 
 </html>
