@@ -14,7 +14,7 @@
                         </div>
                         <div class="page_pagination">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="{{ route('home') }}">Home</a></li>
                                 <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
                                 <li>Post Your Ad</li>
                             </ul>
