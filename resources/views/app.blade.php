@@ -110,7 +110,7 @@
                         <ul class="nav navbar-right top-nav">
                             <li class="dropdown">
                                 <a aria-expanded="false" href="#" class="dropdown-toggle" data-toggle="dropdown"><img
-                                            src="images/user.jpg" alt="User Image" class="user-dp"> Jhone Doe <b class="caret"></b></a>
+                                            src="{{ asset('images/user.jpg') }}" alt="User Image" class="user-dp"> Jhone Doe <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a href="{{ route('settings') }}"><i class="fa fa-fw fa-user"></i> Profile</a>
@@ -321,9 +321,9 @@
                             <a href="#" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
                         </div>
                         <div class="site-info text-center">
-                            <p>&copy; Copyright 2020 OBootstrap Classified . All Rights Reserved<br> Made with <i
-                                        class="fa fa-heart"></i> by <a target="_blank"
-                                                                       href="https://www.facebook.com/iamgurdeeposahan"><strong>Osahan Studio</strong></a></p>
+                            <p>&copy; Copyright 2020 OBootstrap Classified . All Rights Reserved<br> Made with <i class="fa fa-heart"></i> by
+                                <a target="_blank" href="https://www.facebook.com/iamgurdeeposahan"><strong>Osahan Studio</strong></a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -422,8 +422,7 @@
                     </div>
                 </div>
                 <div class="popup-messages-footer">
-                   <textarea id="status_message" placeholder="Type a message..." rows="10" cols="40"
-                             name="message"></textarea>
+                    <label for="status_message"><textarea id="status_message" placeholder="Type a message..." rows="10" cols="40" name="message"></textarea></label>
                     <div class="btn-footer">
                         <button class="bg_none"><i class="glyphicon glyphicon-film"></i> </button>
                         <button class="bg_none"><i class="glyphicon glyphicon-camera"></i> </button>
