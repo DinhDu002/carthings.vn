@@ -279,7 +279,7 @@
                                   2020</span>
                                 </li>
                                 <li>
-                                    <a href="#">Perfect Video Post Lorem ipsum..</a>
+                                    <a href="#">Perfect Video Post Lorem ipsum.</a>
                                     <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> November 19,
                                   2020</span>
                                 </li>
@@ -422,7 +422,8 @@
                     </div>
                 </div>
                 <div class="popup-messages-footer">
-                    <label for="status_message"><textarea id="status_message" placeholder="Type a message..." rows="10" cols="40" name="message"></textarea></label>
+                    <label for="status_message"></label>
+                    <textarea id="status_message" placeholder="Type a message..." rows="10" cols="40" name="message"></textarea>
                     <div class="btn-footer">
                         <button class="bg_none"><i class="glyphicon glyphicon-film"></i> </button>
                         <button class="bg_none"><i class="glyphicon glyphicon-camera"></i> </button>
