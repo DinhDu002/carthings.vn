@@ -11,7 +11,8 @@
 
     <!-- Favicon Icon -->
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('images/apple-icon.png') }}">
-    <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/logo/icononly_transparent_nobuffer_white.png') }}">
+{{--    <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">--}}
 
     <!-- Bootstrap CSS -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -37,7 +38,7 @@
     <!-- Navbar -->
     <nav class="navbar top-navbar navbar-expand-lg navbar-light bg-white p-0">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('home') }}"><img alt="logo" src="{{ asset('images/logo.png') }}"></a>
+            <a class="navbar-brand" href="{{ route('home') }}"><img style="height: 33px" alt="logo" src="{{ asset('images/logo/fulllogo_transparent_nobuffer.png') }}"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
